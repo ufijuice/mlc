@@ -82,4 +82,4 @@ for m in modal_statements:
 
 g = create_rdf_graph(triplets, modal_statements)
 print("\nRDF Graph (in Turtle format):")
-print(g.serialize(format="turtle"))#.decode("utf-8"))
+print(g.serialize(format="turtle"))
