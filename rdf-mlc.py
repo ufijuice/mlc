@@ -3,7 +3,7 @@ import re
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef
 from rdflib.namespace import RDFS, XSD
 
-# Load English tokenizer, tagger, parser and NER
+# tokenizer, tagger, parser and NER
 nlp = spacy.load("en_core_web_sm")
 
 def extract_triplets(text):
