@@ -47,7 +47,7 @@ def extract_modal_logic(text):
 
 def create_rdf_graph(triplets, modal_statements):
     g = Graph()
-    ns = Namespace("http://example.org/")
+    ns = Namespace("https://occurai.com")
 
     for subj, pred, obj in triplets:
         g.add((URIRef(ns + subj), URIRef(ns + pred), Literal(obj)))
