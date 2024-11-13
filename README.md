@@ -1,3 +1,3 @@
-# drf-mlc
+# rdf-mlc
 
-resouce description framework - modal logic converter
+modal logic converter: from text into RDF triples and rules
