@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modal-logic-converter"
+version = "0.1.0"
+description = "Modal Logic Converter: Rigid epistemic scaffolding for autonomous world models under observer uncertainty"
+readme = "README.md"
+authors = [
+    { name = "Pavel Chekmaryov", email = "juices.woo@gmail.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ufijuice/mlc"
+Repository = "https://github.com/ufijuice/mlc.git"
