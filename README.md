@@ -77,12 +77,18 @@ cd mlc
 pip install -e .
 ```
 
-### 2. Run the Demo
+### 2. Run the Demos
 
-Run the interactive demonstration:
+**Cognitive Engine Demo:**
 ```bash
 python demo.py
 ```
+
+**Society & Behavioral Models Simulation:**
+```bash
+python simulation_demo.py
+```
+Simulates the evolutionary dynamics from the [2021 Behavioral Models Research thesis](https://medium.com/@ufijuice/occur-behavioral-models-research-reasoning-a4e0c61a27e3): testing how algorithmic recommendation filters cause the collapse vs preservation of shared reality and meritocracy across competing behavioral archetypes (`MeritSeeker`, `ShortTermOptimizer`, `SimulacrumFollower`).
 
 ### 3. Basic Usage
 

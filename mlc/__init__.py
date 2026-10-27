@@ -15,8 +15,9 @@ from mlc.rules import (
 )
 from mlc.converter import ModalConverter
 from mlc.engine import WorldModel
+from mlc.simulation import SocietySimulation, Citizen, Archetype
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __all__ = [
     "WorldModel",
     "Belief",
@@ -29,4 +30,7 @@ __all__ = [
     "SubsumptionRule",
     "InverseRule",
     "get_default_rules",
+    "SocietySimulation",
+    "Citizen",
+    "Archetype",
 ]
